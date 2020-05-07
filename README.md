@@ -5,6 +5,22 @@ This wraps up the tf-auto-document tool here: https://github.com/richardjkendall
 
 See example of what the documentation looks like here: https://github.com/richardjkendall/tf-modules
 
+## Requirements
+
+Expects the target repository be structured as follows
+
+```
+root
+ |-modules
+    |-module1
+    |-module2
+    |-module...
+```
+
+The modules sub-folder can be renamed and the name of this folder can be passed into the action using the ``modulesFolder`` input variable.
+
+For more info about the tool and how it works, look here https://github.com/richardjkendall/tf-auto-document
+
 ## Example
 
 ```yaml
