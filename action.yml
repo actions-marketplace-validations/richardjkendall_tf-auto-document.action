@@ -1,0 +1,8 @@
+name: terraform-auto-document
+author: 'Richard Kendall'
+description: 'Runs the Terraform Auto Documenting Tool'
+inputs:
+  modulesFolder:
+    description: 'Folder inside the repository which contains the terraform modules'
+    required: false
+    default: 'modules'
