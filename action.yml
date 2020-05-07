@@ -6,3 +6,6 @@ inputs:
     description: 'Folder inside the repository which contains the terraform modules'
     required: false
     default: 'modules'
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
