@@ -23,6 +23,8 @@ jobs:
     - uses: actions/checkout@master
     - name: build docs
       uses: richardjkendall/tf-auto-document.action@v0.01
+      with:
+        modulesFolder: 'modules'
     - name: commit doc changes
       run : |
         git_hash=$(git rev-parse --short "$GITHUB_SHA")
