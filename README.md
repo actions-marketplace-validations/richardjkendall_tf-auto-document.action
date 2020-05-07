@@ -3,6 +3,8 @@ A GitHub action to auto generate documentation for Terraform files.
 
 This wraps up the tf-auto-document tool here: https://github.com/richardjkendall/tf-auto-document
 
+See example of what the documentation looks like here: https://github.com/richardjkendall/tf-modules
+
 ## Example
 
 ```yaml
