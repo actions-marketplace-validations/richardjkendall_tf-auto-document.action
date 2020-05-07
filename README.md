@@ -38,7 +38,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: build docs
-      uses: richardjkendall/tf-auto-document.action@v0.01
+      uses: richardjkendall/tf-auto-document.action@v0.03
       with:
         modulesFolder: 'modules'
     - name: commit doc changes
