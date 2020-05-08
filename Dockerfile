@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Richard Kendall <richard.kendall@gmail.com>
 
-ADD https://github.com/richardjkendall/tf-auto-document/releases/download/v1.001/tf-auto-document_v1.001_linux_amd64.tar.gz /tf.tar.gz
+ADD https://github.com/richardjkendall/tf-auto-document/releases/download/v1.002/tf-auto-document_v1.002_linux_amd64.tar.gz /tf.tar.gz
 RUN tar xvzf /tf.tar.gz
 RUN chmod +x /tf-auto-document
 
